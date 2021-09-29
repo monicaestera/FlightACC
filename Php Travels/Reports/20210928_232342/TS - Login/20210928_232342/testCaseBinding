@@ -1,0 +1,3 @@
+{"testCaseName":"Test Cases/TC - Login - Iteration 1","testCaseId":"Test Cases/TC - Login","bindedValues":{"OUT_STAT":"\u0027true\u0027","Username":"\u0027dwferdy@gmail.com\u0027","Password":"\u0027ferdy123\u0027"}}
+{"testCaseName":"Test Cases/TC - Login - Iteration 2","testCaseId":"Test Cases/TC - Login","bindedValues":{"OUT_STAT":"\u0027false\u0027","Username":"\u0027dwferdy@gmail.com\u0027"}}
+{"testCaseName":"Test Cases/TC - Login - Iteration 3","testCaseId":"Test Cases/TC - Login","bindedValues":{"OUT_STAT":"\u0027false\u0027","Password":"\u0027ferdy123\u0027"}}

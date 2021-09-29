@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Signup - PHPTRAVEL/Page_Signup - PHPTRAVELS/span_Signup",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Customer\u0027])[2]/following::span[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Account Type\u0027])[1]/following::span[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210929_081850/TS - Register/20210929_081850/Object Repository/Page_Signup - PHPTRAVEL/Page_Signup - PHPTRAVELS/span_Signup_neighbor.png"
+    }
+  ]
+}

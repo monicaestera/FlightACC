@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Register" time="78.134" tests="3" failures="0" skips="0" errors="0">
+   <testsuite name="TS - Register" tests="3" failures="0" errors="0" time="78.134" skips="0" timestamp="2021-09-29 01:02:43" hostname="Asus - DESKTOP-2DQK6UH" id="Test Suites/TS - Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Asus\\Katalon Studio\\Php Travels\\Reports\\20210929_010229\\TS - Register\\20210929_010229"/>
+         <property name="logFiles" value="C:\\Users\\Asus\\Katalon Studio\\Php Travels\\Reports\\20210929_010229\\TS - Register\\20210929_010229\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Asus - DESKTOP-2DQK6UH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.0.208"/>
+         <property name="browser" value="Chrome 93.0.4577.82"/>
+         <property name="hostAddress" value="172.20.10.4"/>
+         <property name="sessionId" value="679a3edc0cc36a2d439081549ca274b7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC - Register" time="26.116" classname="Test Cases/TC - Register" status="PASSED">
+         <system-out><![CDATA[2021-09-29 01:02:45 - [TEST_CASE][PASSED] - Test Cases/TC - Register: Test Cases/TC - Register
+
+2021-09-29 01:02:46 - [TEST_STEP][PASSED] - openBrowser("https://www.phptravels.net/"): Browser is opened with url: 'https://www.phptravels.net/'
+
+2021-09-29 01:02:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-29 01:02:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-29 01:02:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.phptravels.net/'
+
+2021-09-29 01:02:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-29 01:02:56 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-29 01:02:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_PHPTRAVEL - PHPTRAVEL/a_Signup")): Object: 'Object Repository/Page_PHPTRAVEL - PHPTRAVEL/a_Signup' is clicked on
+
+2021-09-29 01:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PHPTRAVEL - PHPTRAVEL/a_Signup' is clicked on
+
+2021-09-29 01:02:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_First Name_first_name"), Firstname): Text 'Dewa' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_First Name_first_name'
+
+2021-09-29 01:02:58 - [MESSAGE][PASSED] - Text 'Dewa' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_First Name_first_name'
+
+2021-09-29 01:02:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_Last Name_last_name"), Lastname): Text 'Ferdy' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Last Name_last_name'
+
+2021-09-29 01:02:58 - [MESSAGE][PASSED] - Text 'Ferdy' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Last Name_last_name'
+
+2021-09-29 01:02:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_Phone_phone"), Phone): Text '082234567' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Phone_phone'
+
+2021-09-29 01:02:58 - [MESSAGE][PASSED] - Text '082234567' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Phone_phone'
+
+2021-09-29 01:02:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_Email_email"), Email): Text 'dwferdy@gmail.com' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Email_email'
+
+2021-09-29 01:02:59 - [MESSAGE][PASSED] - Text 'dwferdy@gmail.com' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Email_email'
+
+2021-09-29 01:02:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_Password_password"), Password): Text 'ferdy123123' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Password_password'
+
+2021-09-29 01:02:59 - [MESSAGE][PASSED] - Text 'ferdy123123' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Password_password'
+
+2021-09-29 01:02:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Signup - PHPTRAVEL/input__select2-search__field")): Object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field' is clicked on
+
+2021-09-29 01:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field' is clicked on
+
+2021-09-29 01:03:03 - [TEST_STEP][PASSED] - if (AccountType == "Customer"): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input__select2-search__field"), "Customer", STOP_ON_FAILURE): Text 'Customer' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:04 - [MESSAGE][PASSED] - Text 'Customer' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Signup - PHPTRAVEL/input__select2-search__field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Signup - PHPTRAVEL/button_Signup")): Object: 'Object Repository/Page_Signup - PHPTRAVEL/button_Signup' is clicked on
+
+2021-09-29 01:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Signup - PHPTRAVEL/button_Signup' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - Register" time="24.601" classname="Test Cases/TC - Register" status="PASSED">
+         <system-out><![CDATA[2021-09-29 01:03:11 - [TEST_CASE][PASSED] - Test Cases/TC - Register: Test Cases/TC - Register
+
+2021-09-29 01:03:11 - [TEST_STEP][PASSED] - openBrowser("https://www.phptravels.net/"): Browser is opened with url: 'https://www.phptravels.net/'
+
+2021-09-29 01:03:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-09-29 01:03:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-29 01:03:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-29 01:03:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.phptravels.net/'
+
+2021-09-29 01:03:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-29 01:03:22 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-29 01:03:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_PHPTRAVEL - PHPTRAVEL/a_Signup")): Object: 'Object Repository/Page_PHPTRAVEL - PHPTRAVEL/a_Signup' is clicked on
+
+2021-09-29 01:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PHPTRAVEL - PHPTRAVEL/a_Signup' is clicked on
+
+2021-09-29 01:03:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_First Name_first_name"), Firstname): Text 'Dewa' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_First Name_first_name'
+
+2021-09-29 01:03:24 - [MESSAGE][PASSED] - Text 'Dewa' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_First Name_first_name'
+
+2021-09-29 01:03:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_Last Name_last_name"), Lastname): Text 'Ferdy' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Last Name_last_name'
+
+2021-09-29 01:03:24 - [MESSAGE][PASSED] - Text 'Ferdy' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Last Name_last_name'
+
+2021-09-29 01:03:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_Phone_phone"), Phone): Text '082234567' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Phone_phone'
+
+2021-09-29 01:03:25 - [MESSAGE][PASSED] - Text '082234567' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Phone_phone'
+
+2021-09-29 01:03:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_Email_email"), Email): Text 'dwferdy@gmail.com' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Email_email'
+
+2021-09-29 01:03:25 - [MESSAGE][PASSED] - Text 'dwferdy@gmail.com' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Email_email'
+
+2021-09-29 01:03:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_Password_password"), Password): Text 'ferdy123123' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Password_password'
+
+2021-09-29 01:03:26 - [MESSAGE][PASSED] - Text 'ferdy123123' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Password_password'
+
+2021-09-29 01:03:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Signup - PHPTRAVEL/input__select2-search__field")): Object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field' is clicked on
+
+2021-09-29 01:03:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field' is clicked on
+
+2021-09-29 01:03:28 - [TEST_STEP][PASSED] - if (AccountType == "Customer"): null
+
+2021-09-29 01:03:28 - [TEST_STEP][PASSED] - else if (AccountType == "Supplier"): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input__select2-search__field"), "Supplier"): Text 'Supplier' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:28 - [MESSAGE][PASSED] - Text 'Supplier' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Signup - PHPTRAVEL/input__select2-search__field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Signup - PHPTRAVEL/button_Signup")): Object: 'Object Repository/Page_Signup - PHPTRAVEL/button_Signup' is clicked on
+
+2021-09-29 01:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Signup - PHPTRAVEL/button_Signup' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - Register" time="25.265" classname="Test Cases/TC - Register" status="PASSED">
+         <system-out><![CDATA[2021-09-29 01:03:36 - [TEST_CASE][PASSED] - Test Cases/TC - Register: Test Cases/TC - Register
+
+2021-09-29 01:03:36 - [TEST_STEP][PASSED] - openBrowser("https://www.phptravels.net/"): Browser is opened with url: 'https://www.phptravels.net/'
+
+2021-09-29 01:03:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-09-29 01:03:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-09-29 01:03:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-29 01:03:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.phptravels.net/'
+
+2021-09-29 01:03:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-29 01:03:46 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-29 01:03:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_PHPTRAVEL - PHPTRAVEL/a_Signup")): Object: 'Object Repository/Page_PHPTRAVEL - PHPTRAVEL/a_Signup' is clicked on
+
+2021-09-29 01:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PHPTRAVEL - PHPTRAVEL/a_Signup' is clicked on
+
+2021-09-29 01:03:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_First Name_first_name"), Firstname): Text 'Dewa' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_First Name_first_name'
+
+2021-09-29 01:03:48 - [MESSAGE][PASSED] - Text 'Dewa' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_First Name_first_name'
+
+2021-09-29 01:03:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_Last Name_last_name"), Lastname): Text 'Ferdy' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Last Name_last_name'
+
+2021-09-29 01:03:48 - [MESSAGE][PASSED] - Text 'Ferdy' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Last Name_last_name'
+
+2021-09-29 01:03:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_Phone_phone"), Phone): Text '082234567' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Phone_phone'
+
+2021-09-29 01:03:49 - [MESSAGE][PASSED] - Text '082234567' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Phone_phone'
+
+2021-09-29 01:03:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_Email_email"), Email): Text 'dwferdy@gmail.com' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Email_email'
+
+2021-09-29 01:03:49 - [MESSAGE][PASSED] - Text 'dwferdy@gmail.com' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Email_email'
+
+2021-09-29 01:03:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input_Password_password"), Password): Text 'ferdy123123' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Password_password'
+
+2021-09-29 01:03:50 - [MESSAGE][PASSED] - Text 'ferdy123123' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input_Password_password'
+
+2021-09-29 01:03:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Signup - PHPTRAVEL/input__select2-search__field")): Object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field' is clicked on
+
+2021-09-29 01:03:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field' is clicked on
+
+2021-09-29 01:03:53 - [TEST_STEP][PASSED] - if (AccountType == "Customer"): null
+
+2021-09-29 01:03:53 - [TEST_STEP][PASSED] - else if (AccountType == "Supplier"): null
+
+2021-09-29 01:03:53 - [TEST_STEP][PASSED] - else if (AccountType == "Agent"): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Signup - PHPTRAVEL/input__select2-search__field"), "Agent"): Text 'Agent' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:53 - [MESSAGE][PASSED] - Text 'Agent' is set on object 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_Signup - PHPTRAVEL/input__select2-search__field"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Signup - PHPTRAVEL/input__select2-search__field'
+
+2021-09-29 01:03:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_Signup - PHPTRAVEL/button_Signup")): Object: 'Object Repository/Page_Signup - PHPTRAVEL/button_Signup' is clicked on
+
+2021-09-29 01:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Signup - PHPTRAVEL/button_Signup' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-29 01:02:43 - [TEST_SUITE][INCOMPLETE] - TS - Register: null]]></system-out>
+      <system-err><![CDATA[2021-09-29 01:02:43 - [TEST_SUITE][INCOMPLETE] - TS - Register: null]]></system-err>
+   </testsuite>
+</testsuites>
