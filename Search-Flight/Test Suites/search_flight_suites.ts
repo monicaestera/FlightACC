@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>search_flight_suites</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>4af32670-7850-4c5c-abbd-bc51cd5e9fb0</testSuiteGuid>
+   <testCaseLink>
+      <guid>d3f2c035-2011-4f57-9cf9-c3679467b167</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC - SearchFlight</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>05ff5e76-879d-4d08-9ebf-bfaadee274da</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/search_flight_files</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>05ff5e76-879d-4d08-9ebf-bfaadee274da</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>58a634f0-7f9e-4c85-94c4-a49a324e4b55</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05ff5e76-879d-4d08-9ebf-bfaadee274da</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Flight Program</value>
+         <variableId>605294e6-edc5-4d1f-b3a6-784a61861901</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05ff5e76-879d-4d08-9ebf-bfaadee274da</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Flying From</value>
+         <variableId>032936ca-c15c-45f1-9c50-2238a6811dc4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05ff5e76-879d-4d08-9ebf-bfaadee274da</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>To Destination</value>
+         <variableId>2c6ba11a-b3be-40cf-b51d-cfa844f7fd5a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05ff5e76-879d-4d08-9ebf-bfaadee274da</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Departure Date</value>
+         <variableId>bd81a24c-54e7-4b33-9659-2912861dcc87</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05ff5e76-879d-4d08-9ebf-bfaadee274da</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Return Date</value>
+         <variableId>3e32f52d-65e3-49ab-bf8b-8b66cbc02379</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05ff5e76-879d-4d08-9ebf-bfaadee274da</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Adults</value>
+         <variableId>a528dbcb-ec01-4137-b74f-cd555799829f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05ff5e76-879d-4d08-9ebf-bfaadee274da</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Childs</value>
+         <variableId>4bf23b52-79e9-461d-a4f4-8d22549b07e5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05ff5e76-879d-4d08-9ebf-bfaadee274da</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Infants</value>
+         <variableId>b108d1d0-e3b3-4b25-88f3-d388f03cd5af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>05ff5e76-879d-4d08-9ebf-bfaadee274da</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Class</value>
+         <variableId>6bce31f1-9874-40d9-bef0-c5a1100a20c7</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
