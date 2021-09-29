@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC - Register,Chrome 93.0.4577.82,,,2021-09-28 22:22:21,2021-09-28 22:22:52,30.646s,FAILED
+,,,,,,,
+Test Cases/TC - Register,Chrome 93.0.4577.82,,,2021-09-28 22:22:24,2021-09-28 22:22:52,28.463s,FAILED
+"openBrowser(""https://www.phptravels.net/"")",Chrome 93.0.4577.82,,,2021-09-28 22:22:25,2021-09-28 22:22:36,11.097s,PASSED
+maximizeWindow(),Chrome 93.0.4577.82,,,2021-09-28 22:22:36,2021-09-28 22:22:36,0.364s,PASSED
+"click(findTestObject(""Page_PHPTRAVEL - PHPTRAVEL/a_Signup""))",Chrome 93.0.4577.82,,,2021-09-28 22:22:36,2021-09-28 22:22:38,1.733s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_First Name_first_name""), ""Dewa"")",Chrome 93.0.4577.82,,,2021-09-28 22:22:38,2021-09-28 22:22:38,0.511s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_Last Name_last_name""), ""Ferdy"")",Chrome 93.0.4577.82,,,2021-09-28 22:22:38,2021-09-28 22:22:39,0.413s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_Phone_phone""), ""081337084467"")",Chrome 93.0.4577.82,,,2021-09-28 22:22:39,2021-09-28 22:22:39,0.386s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_Email_email""), ""dwferdy@gmail.com"")",Chrome 93.0.4577.82,,,2021-09-28 22:22:39,2021-09-28 22:22:40,0.413s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_Password_password""), ""ferdy123"")",Chrome 93.0.4577.82,,,2021-09-28 22:22:40,2021-09-28 22:22:40,0.422s,PASSED
+"click(findTestObject(""Page_Signup - PHPTRAVEL/b""))",Chrome 93.0.4577.82,,,2021-09-28 22:22:40,2021-09-28 22:22:42,1.537s,FAILED

@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS - Register,Edge Chromium 94,,,2021-09-29 07:51:36,2021-09-29 07:52:17,41.083s,FAILED
+,,,,,,,
+Test Cases/TC - Register,Edge Chromium 94,,,2021-09-29 07:51:37,2021-09-29 07:51:50,12.808s,FAILED
+"openBrowser(""https://www.phptravels.net/"")",Edge Chromium 94,,,2021-09-29 07:51:37,2021-09-29 07:51:46,8.651s,PASSED
+maximizeWindow(),Edge Chromium 94,,,2021-09-29 07:51:46,2021-09-29 07:51:46,0.155s,PASSED
+"click(findTestObject(""Page_PHPTRAVEL - PHPTRAVEL/a_Signup""))",Edge Chromium 94,,,2021-09-29 07:51:46,2021-09-29 07:51:47,0.713s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_First Name_first_name""), Firstname)",Edge Chromium 94,,,2021-09-29 07:51:47,2021-09-29 07:51:47,0.311s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_Last Name_last_name""), Lastname)",Edge Chromium 94,,,2021-09-29 07:51:47,2021-09-29 07:51:47,0.235s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_Phone_phone""), Phone)",Edge Chromium 94,,,2021-09-29 07:51:47,2021-09-29 07:51:48,0.246s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_Email_email""), Email)",Edge Chromium 94,,,2021-09-29 07:51:48,2021-09-29 07:51:48,0.274s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_Password_password""), Password)",Edge Chromium 94,,,2021-09-29 07:51:48,2021-09-29 07:51:48,0.225s,PASSED
+"if (AccountType == ""Customer"")",Edge Chromium 94,,,2021-09-29 07:51:48,2021-09-29 07:51:50,1.380s,FAILED
+,,,,,,,
+Test Cases/TC - Register,Edge Chromium 94,,,2021-09-29 07:51:50,2021-09-29 07:52:00,10.357s,FAILED
+"openBrowser(""https://www.phptravels.net/"")",Edge Chromium 94,,,2021-09-29 07:51:50,2021-09-29 07:51:59,9.645s,PASSED
+maximizeWindow(),Edge Chromium 94,,,2021-09-29 07:51:59,2021-09-29 07:51:59,0.155s,PASSED
+"click(findTestObject(""Page_PHPTRAVEL - PHPTRAVEL/a_Signup""))",Edge Chromium 94,,,2021-09-29 07:51:59,2021-09-29 07:52:00,0.537s,FAILED
+,,,,,,,
+Test Cases/TC - Register,Edge Chromium 94,,,2021-09-29 07:52:00,2021-09-29 07:52:17,17.341s,FAILED
+"openBrowser(""https://www.phptravels.net/"")",Edge Chromium 94,,,2021-09-29 07:52:00,2021-09-29 07:52:08,7.773s,PASSED
+maximizeWindow(),Edge Chromium 94,,,2021-09-29 07:52:08,2021-09-29 07:52:08,0.018s,PASSED
+"click(findTestObject(""Page_PHPTRAVEL - PHPTRAVEL/a_Signup""))",Edge Chromium 94,,,2021-09-29 07:52:08,2021-09-29 07:52:09,0.703s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_First Name_first_name""), Firstname)",Edge Chromium 94,,,2021-09-29 07:52:09,2021-09-29 07:52:09,0.300s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_Last Name_last_name""), Lastname)",Edge Chromium 94,,,2021-09-29 07:52:09,2021-09-29 07:52:09,0.350s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_Phone_phone""), Phone)",Edge Chromium 94,,,2021-09-29 07:52:09,2021-09-29 07:52:09,0.241s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_Email_email""), Email)",Edge Chromium 94,,,2021-09-29 07:52:09,2021-09-29 07:52:10,0.269s,PASSED
+"setText(findTestObject(""Page_Signup - PHPTRAVEL/input_Password_password""), Password)",Edge Chromium 94,,,2021-09-29 07:52:10,2021-09-29 07:52:10,0.270s,PASSED
+"if (AccountType == ""Customer"")",Edge Chromium 94,,,2021-09-29 07:52:10,2021-09-29 07:52:10,0.001s,PASSED
+"else if (AccountType == ""Supplier"")",Edge Chromium 94,,,2021-09-29 07:52:10,2021-09-29 07:52:10,0.000s,PASSED
+"else if (AccountType == ""Agent"")",Edge Chromium 94,,,2021-09-29 07:52:10,2021-09-29 07:52:17,7.391s,FAILED

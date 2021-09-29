@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS - Login" time="35.225" tests="3" failures="0" errors="0">
+   <testsuite name="TS - Login" tests="3" failures="0" errors="0" time="35.225" skipped="0" timestamp="2021-09-29 07:36:23" hostname="Luqman Rofif - DESKTOP-KQT0551" id="Test Suites/TS - Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\DOK\\Intern\\Php Travels\\Reports\\20210929_073614\\TS - Login\\20210929_073614"/>
+         <property name="logFiles" value="C:\\DOK\\Intern\\Php Travels\\Reports\\20210929_073614\\TS - Login\\20210929_073614\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Luqman Rofif - DESKTOP-KQT0551"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="browser" value="Edge Chromium 94"/>
+         <property name="hostAddress" value="192.168.43.85"/>
+         <property name="sessionId" value="48d69a06169264d67910e622c95c7299"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC - Login" time="12.187" classname="Test Cases/TC - Login" status="PASSED">
+         <system-out><![CDATA[2021-09-29 07:36:23 - [TEST_CASE][PASSED] - Test Cases/TC - Login: Test Cases/TC - Login
+
+2021-09-29 07:36:24 - [TEST_STEP][PASSED] - openBrowser("https://www.phptravels.net/"): Browser is opened with url: 'https://www.phptravels.net/'
+
+2021-09-29 07:36:24 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-09-29 07:36:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-29 07:36:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.phptravels.net/'
+
+2021-09-29 07:36:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-29 07:36:33 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-29 07:36:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_PHPTRAVEL - PHPTRAVEL/a_Login")): Object: 'Object Repository/Page_PHPTRAVEL - PHPTRAVEL/a_Login' is clicked on
+
+2021-09-29 07:36:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PHPTRAVEL - PHPTRAVEL/a_Login' is clicked on
+
+2021-09-29 07:36:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - PHPTRAVEL/input_Email_email"), Username): Text 'dwferdy@gmail.com' is set on object 'Object Repository/Page_Login - PHPTRAVEL/input_Email_email'
+
+2021-09-29 07:36:34 - [MESSAGE][PASSED] - Text 'dwferdy@gmail.com' is set on object 'Object Repository/Page_Login - PHPTRAVEL/input_Email_email'
+
+2021-09-29 07:36:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - PHPTRAVEL/input_Password_password"), Password): Text 'ferdy123' is set on object 'Object Repository/Page_Login - PHPTRAVEL/input_Password_password'
+
+2021-09-29 07:36:34 - [MESSAGE][PASSED] - Text 'ferdy123' is set on object 'Object Repository/Page_Login - PHPTRAVEL/input_Password_password'
+
+2021-09-29 07:36:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - PHPTRAVEL/button_Login")): Object: 'Object Repository/Page_Login - PHPTRAVEL/button_Login' is clicked on
+
+2021-09-29 07:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - PHPTRAVEL/button_Login' is clicked on
+
+2021-09-29 07:36:35 - [TEST_STEP][PASSED] - if (true): Object 'Object Repository/Page_Dashboard - PHPTRAVEL/div_Dewa                    Welcome Back' is visible
+
+2021-09-29 07:36:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Dashboard - PHPTRAVEL/div_Dewa                    Welcome Back")): Object 'Object Repository/Page_Dashboard - PHPTRAVEL/div_Dewa                    Welcome Back' is visible
+
+2021-09-29 07:36:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard - PHPTRAVEL/div_Dewa                    Welcome Back' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - Login" time="9.469" classname="Test Cases/TC - Login" status="PASSED">
+         <system-out><![CDATA[2021-09-29 07:36:35 - [TEST_CASE][PASSED] - Test Cases/TC - Login: Test Cases/TC - Login
+
+2021-09-29 07:36:35 - [TEST_STEP][PASSED] - openBrowser("https://www.phptravels.net/"): Browser is opened with url: 'https://www.phptravels.net/'
+
+2021-09-29 07:36:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-09-29 07:36:36 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-09-29 07:36:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-29 07:36:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.phptravels.net/'
+
+2021-09-29 07:36:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-29 07:36:43 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-29 07:36:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_PHPTRAVEL - PHPTRAVEL/a_Login")): Object: 'Object Repository/Page_PHPTRAVEL - PHPTRAVEL/a_Login' is clicked on
+
+2021-09-29 07:36:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PHPTRAVEL - PHPTRAVEL/a_Login' is clicked on
+
+2021-09-29 07:36:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - PHPTRAVEL/input_Email_email"), Username): Text 'dwferdy@gmail.com' is set on object 'Object Repository/Page_Login - PHPTRAVEL/input_Email_email'
+
+2021-09-29 07:36:44 - [MESSAGE][PASSED] - Text 'dwferdy@gmail.com' is set on object 'Object Repository/Page_Login - PHPTRAVEL/input_Email_email'
+
+2021-09-29 07:36:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - PHPTRAVEL/input_Password_password"), Password): Text '' is set on object 'Object Repository/Page_Login - PHPTRAVEL/input_Password_password'
+
+2021-09-29 07:36:45 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Login - PHPTRAVEL/input_Password_password'
+
+2021-09-29 07:36:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - PHPTRAVEL/button_Login")): Object: 'Object Repository/Page_Login - PHPTRAVEL/button_Login' is clicked on
+
+2021-09-29 07:36:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - PHPTRAVEL/button_Login' is clicked on
+
+2021-09-29 07:36:45 - [TEST_STEP][PASSED] - if (true): Object 'Object Repository/Page_Dashboard - PHPTRAVEL/div_Dewa                    Welcome Back' is visible
+
+2021-09-29 07:36:45 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Dashboard - PHPTRAVEL/div_Dewa                    Welcome Back")): Object 'Object Repository/Page_Dashboard - PHPTRAVEL/div_Dewa                    Welcome Back' is visible
+
+2021-09-29 07:36:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard - PHPTRAVEL/div_Dewa                    Welcome Back' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC - Login" time="11.857" classname="Test Cases/TC - Login" status="PASSED">
+         <system-out><![CDATA[2021-09-29 07:36:45 - [TEST_CASE][PASSED] - Test Cases/TC - Login: Test Cases/TC - Login
+
+2021-09-29 07:36:45 - [TEST_STEP][PASSED] - openBrowser("https://www.phptravels.net/"): Browser is opened with url: 'https://www.phptravels.net/'
+
+2021-09-29 07:36:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-09-29 07:36:46 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2021-09-29 07:36:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-09-29 07:36:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.phptravels.net/'
+
+2021-09-29 07:36:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-09-29 07:36:55 - [MESSAGE][PASSED] - Current window maximized
+
+2021-09-29 07:36:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_PHPTRAVEL - PHPTRAVEL/a_Login")): Object: 'Object Repository/Page_PHPTRAVEL - PHPTRAVEL/a_Login' is clicked on
+
+2021-09-29 07:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PHPTRAVEL - PHPTRAVEL/a_Login' is clicked on
+
+2021-09-29 07:36:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - PHPTRAVEL/input_Email_email"), Username): Text '' is set on object 'Object Repository/Page_Login - PHPTRAVEL/input_Email_email'
+
+2021-09-29 07:36:56 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_Login - PHPTRAVEL/input_Email_email'
+
+2021-09-29 07:36:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login - PHPTRAVEL/input_Password_password"), Password): Text 'ferdy123' is set on object 'Object Repository/Page_Login - PHPTRAVEL/input_Password_password'
+
+2021-09-29 07:36:56 - [MESSAGE][PASSED] - Text 'ferdy123' is set on object 'Object Repository/Page_Login - PHPTRAVEL/input_Password_password'
+
+2021-09-29 07:36:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login - PHPTRAVEL/button_Login")): Object: 'Object Repository/Page_Login - PHPTRAVEL/button_Login' is clicked on
+
+2021-09-29 07:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - PHPTRAVEL/button_Login' is clicked on
+
+2021-09-29 07:36:57 - [TEST_STEP][PASSED] - if (true): Object 'Object Repository/Page_Dashboard - PHPTRAVEL/div_Dewa                    Welcome Back' is visible
+
+2021-09-29 07:36:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Dashboard - PHPTRAVEL/div_Dewa                    Welcome Back")): Object 'Object Repository/Page_Dashboard - PHPTRAVEL/div_Dewa                    Welcome Back' is visible
+
+2021-09-29 07:36:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard - PHPTRAVEL/div_Dewa                    Welcome Back' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-09-29 07:36:23 - [TEST_SUITE][PASSED] - TS - Login: Test Cases/TC - Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
